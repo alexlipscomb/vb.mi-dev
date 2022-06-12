@@ -679,7 +679,7 @@ void myObj_assist(t_myObj* self, void* unused, t_assist_function io, long index,
             case 3:
                 strncpy(string_dest,"(signal) Model_CV, (float) Model", ASSIST_STRING_MAXSIZE); break;
             case 4:
-                strncpy(string_dest,"(signal/bang) tigger input", ASSIST_STRING_MAXSIZE); break;
+                strncpy(string_dest,"(signal/bang) trigger input", ASSIST_STRING_MAXSIZE); break;
 		}
 	}
 	else if (io == ASSIST_OUTLET) {
